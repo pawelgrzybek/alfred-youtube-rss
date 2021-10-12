@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.pawelgrzybek.alfred-youtube-rss</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>4DB02985-0E94-4B9C-B77E-78A154BBCD2C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EC9E784A-0AC3-4649-8092-9685966C0614</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Pawel Grzybek</string>
+	<key>description</key>
+	<string>Generate RSS feed URL for YouTube channel</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>YouTube RSS</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>https://www.youtube.com/feeds/videos.xml?channel_id={query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>EC9E784A-0AC3-4649-8092-9685966C0614</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>youtuberss</string>
+				<key>subtext</key>
+				<string>Generate RSS feed URL for YouTube channel</string>
+				<key>text</key>
+				<string>YouTube RSS</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4DB02985-0E94-4B9C-B77E-78A154BBCD2C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>4DB02985-0E94-4B9C-B77E-78A154BBCD2C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>EC9E784A-0AC3-4649-8092-9685966C0614</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://pawelgrzybek.com/</string>
+</dict>
+</plist>
